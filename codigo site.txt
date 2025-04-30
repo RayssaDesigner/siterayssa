@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayssa Designer Gráfica</title>
+  <style>
+    :root {
+      --rose: #f8e1e7;
+      --gold: #d4af37;
+      --text: #333;
+      --background: #fff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--rose);
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 3px solid var(--gold);
+    }
+
+    header h1 {
+      margin: 0;
+      color: var(--gold);
+      font-size: 2.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--gold);
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .portfolio img {
+      width: 100%;
+      max-width: 250px;
+      margin: 10px;
+      border: 2px solid var(--rose);
+      border-radius: 8px;
+    }
+
+    .servicos, .contato {
+      background-color: var(--rose);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .formulario input, .formulario textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .formulario button {
+      background: var(--gold);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .portfolio img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rayssa Designer</h1>
+  </header>
+
+  <section>
+    <h2>✨ Sobre mim</h2>
+    <p>Sou designer gráfica desde 2022 e apaixonada pelo que faço! Tenho 28 anos, sou casada e escolhi o design como forma de transformar ideias em identidade visual. Ao longo da minha trajetória, já criei mais de 2.000 logos para clientes de todo o Brasil e também do exterior. Cada projeto carrega um pedacinho do meu cuidado e dedicação — porque mais do que entregar uma arte bonita, eu busco traduzir a essência de cada marca.</p>
+  </section>
+
+  <section class="servicos">
+    <h2>Serviços</h2>
+    <p>Criação de identidade visual e papelaria impressa.</p>
+  </section>
+
+  <section class="portfolio">
+    <h2>Portfólio</h2>
+    <p>Veja alguns dos meus trabalhos abaixo:</p>
+    <!-- Substitua os caminhos das imagens pelas suas imagens reais -->
+    <img src="logo1.jpg" alt="Logo 1" />
+    <img src="logo2.jpg" alt="Logo 2" />
+    <img src="logo3.jpg" alt="Logo 3" />
+  </section>
+
+  <section class="depoimentos">
+    <h2>Depoimentos</h2>
+    <p>Em breve...</p>
+  </section>
+
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>Me chame no Instagram: <a href="https://instagram.com/rayssa_desiiigner" target="_blank">@rayssa_desiiigner</a></p>
+    <form class="formulario">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea placeholder="Sua mensagem" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rayssa Designer. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
